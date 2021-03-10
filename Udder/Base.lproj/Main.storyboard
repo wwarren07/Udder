@@ -36,23 +36,33 @@
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milk-splash" translatesAutoresizingMaskIntoConstraints="NO" id="X4Q-15-5fZ">
+                                <rect key="frame" x="0.0" y="601" width="414" height="295"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="295" id="ADX-8A-rpV"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="yvD-CJ-77p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="CHc-ZI-tHF"/>
                             <constraint firstItem="UsX-ZJ-Rz5" firstAttribute="centerX" secondItem="yvD-CJ-77p" secondAttribute="centerX" id="DZQ-lb-mW9"/>
+                            <constraint firstAttribute="bottom" secondItem="X4Q-15-5fZ" secondAttribute="bottom" id="WLR-fQ-Lwb"/>
                             <constraint firstItem="yvD-CJ-77p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bqq-9o-htL"/>
+                            <constraint firstItem="X4Q-15-5fZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="heY-Zd-q60"/>
                             <constraint firstItem="UsX-ZJ-Rz5" firstAttribute="top" secondItem="yvD-CJ-77p" secondAttribute="bottom" constant="8" id="ssX-gQ-JsU"/>
+                            <constraint firstItem="X4Q-15-5fZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xkc-UP-O3k"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="119"/>
+            <point key="canvasLocation" x="-17.39130434782609" y="118.52678571428571"/>
         </scene>
     </scenes>
     <resources>
+        <image name="milk-splash" width="259" height="194"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
